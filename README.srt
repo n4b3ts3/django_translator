@@ -1,0 +1,19 @@
+## Django Translator
+This is an automatic translator for django projects... you can update your translations manually later... 
+This project still under development please do not utilize with text that is constantly updated cause this may cause 
+a rapidly growth on the database and a possible DoS for your backend.. Only use this in text that is directly controlled by 
+moderators and trusted people, never for visitants or clients.. 
+## Translator Engine
+We use google translator api for translations
+## Install 
+* Not yet in pip 
+```
+pip3 install django-translator 
+```
+# How to use
+In settings.py add django_translator to installed apps
+NOTICE: This package is intended to be used with locale so enable localization for your project before use it
+```sh
+./manage.py migrate
+```
+
